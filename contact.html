@@ -17,7 +17,9 @@
         }
 
         .container {
-            background-image: url("file:///Users/iceboxx/repo/munoze714.github.io/assets/images/background.jpg");
+            background-image: url("https://cdn.perkuto.com/wp-content/uploads/2015/05/HTML-Table-Coding-1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
         }
 
         .card-footer {
@@ -25,6 +27,11 @@
             width: 100%;
             bottom: 0px;
             background-color: #e9ecef;
+        }
+
+        .row {
+            margin: auto;
+            display: block;
         }
     </style>
 </head>
@@ -50,6 +57,29 @@
 
 
     <div class="container">
+        <div class="row1 row">
+            <div class="col-6 img-thumbnail" style="background-color: #e9ecef;">
+                <div class="row2 row">
+                    <div class="form-group">
+                        <label for="usr">Name:</label>
+                        <input type="text" class="form-control" id="usr" style="width: auto;">
+                    </div>
+                </div>
+
+                <div class="row3 row">
+                    <div class="form-group">
+                        <label for="pwd">Email:</label>
+                        <input type="password" class="form-control" id="pwd">
+                    </div>
+                </div>
+                <div class="row4 row">
+                    <div class="form-group">
+                        <label for="comment">Message:</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
@@ -62,9 +92,7 @@
 
 
 
-
-    </div>
-    <!-- row2 div       -->
+        <!-- row2 div       -->
     </div>
     <!-- container div     -->
     </div>
@@ -75,7 +103,7 @@
 
 
     <!-- footer -->
-    <div class="card-footer">Footer</div>
+    <div class="card-footer">Full-Stack Web Developer</div>
     <!-- jquery links -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
