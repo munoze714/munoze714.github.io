@@ -14,6 +14,7 @@
         body {
             font-family: 'Special Elite', cursive;
             font-weight: bolder;
+            text-align: center;
         }
 
         .container {
@@ -38,8 +39,15 @@
         .card {
             margin: auto;
             margin-bottom: 10px;
-            height: 200px;
-            width: 250px;
+            height: 300px;
+            width: 350px;
+        }
+
+        .fab,
+        .fas {
+            color: black;
+            float: right;
+            padding: 5px;
         }
 
         .breadcrumb-item+.breadcrumb-item::before {
@@ -48,6 +56,7 @@
     </style>
     <title>Portfolio</title>
 </head>
+<script src="https://kit.fontawesome.com/2f824eb713.js" crossorigin="anonymous"></script>
 
 <body>
     <!-- bootstrap -->
@@ -55,33 +64,37 @@
     <nav class="navbar navbar-light bg-light">
         <span class="navbar-brand mb-0 h1">Elizabeth Munoz</span>
     </nav>
-    </nav>
+
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="contact.html">About</a>
             </li>
             <li class="breadcrumb-item"><a href="portfolio.html">Portfolio</a></li>
             <li class="breadcrumb-item"><a href="contact.html">Contact</a></li>
+            <li class="breadcrumb-item"><a href="https://github.com/munoze714"><i class="fab fa-github fa-lg"></i></a>
+            </li>
+            <li class="breadcrumb-item"><a href="https://linkedin.com/in/emunoz714"><i
+                        class="fab fa-linkedin fa-lg"></i></a>
+            </li>
+            <li class="breadcrumb-item"><a href="#"><i class="fas fa-file-pdf fa-lg"></i></a></li>
         </ol>
     </nav>
     <!-- Content -->
 
     <div class="container">
-        <div class="row 1row-cols-1 row-cols-md-2">
+        <div class="row-cols-md-2">
             <div class="col-10 img-thumbnail" style="background-color: #e9ecef; margin:auto; margin-bottom: 40px;">
-
                 <div class="row2 row">
                     <h1>Gallery</h1>
                 </div>
+                <hr>
                 <div class="row3 row">
                     <div class="col col-xs-4">
                         <div class="card">
-                            <a href="#" target="_blank">
+                            <a href="https://munoze714.github.io/groupRepo/" target="_blank">
                                 <img src="./assets/images/shuffle.png" class="card-img-top" alt="project1"></a>
                             <div class="card-body">
-                                <a href="https://munoze714.github.io/groupRepo/">
-                                    <h5 class="card-title">Shuffle</h5>
-                                </a>
+                                <h5 class="card-title">Shuffle</h5>
                             </div>
                         </div>
                     </div>
@@ -90,29 +103,37 @@
                 <div class="row4 row">
                     <div class="col col-xs-4">
                         <div class="card">
-                            <a href="#" target="_blank">
+                            <a href="https://munoze714.github.io/DayPlanner/" target="_blank">
                                 <img src="./assets/images/planner.png" class="card-img-top" alt="planner"></a>
                             <div class="card-body">
-                                <a href="https://munoze714.github.io/DayPlanner/">
-                                    <h5 class="card-title">Day Planner</h5>
-                                </a>
+                                <h5 class="card-title">Day Planner</h5>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class=row5 row>
+
+                <div class="row5 row">
                     <div class="col col-xs-4">
                         <div class="card">
-                            <a href="#" target="_blank">
+                            <a href="https://munoze714.github.io/codequiz/" target="_blank">
                                 <img src="./assets/images/quiz.png" class="card-img-top" alt="quiz"></a>
                             <div class="card-body">
-                                <a href="https://munoze714.github.io/codequiz/">
-                                    <h5 class="card-title">Code Quiz</h5>
-                                </a>
+                                <h5 class="card-title">Code Quiz</h5>
                             </div>
                         </div>
                     </div>
+                </div>
 
+                <div class="row6 row">
+                    <div class="col col-xs-4">
+                        <div class="card">
+                            <a href="https://munoze714.github.io/weatherDashboard/" target="_blank">
+                                <img src="./assets/images/WeatherDash.png" class="card-img-top" alt="quiz"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">Weather Dashboard</h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -120,7 +141,9 @@
     </div>
 
     <!-- footer -->
-    <div class="card-footer">Full-Stack Web Developer</div>
+    <div class="card-footer">
+        <h6>Full-Stack Web Developer</h6>
+    </div>
     <!-- jquery links -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -131,7 +154,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-
 </body>
 
 </html>
