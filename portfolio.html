@@ -1,179 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Links -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- css -->
     <style type="text/css">
-        body {
-            font-family: 'Special Elite', cursive;
-            font-weight: bolder;
-            text-align: center;
-        }
+      body {
+        font-family: "Special Elite", cursive;
+        font-weight: bolder;
+        text-align: center;
+      }
 
-        .container {
-            background-image: url("https://cdn.perkuto.com/wp-content/uploads/2015/05/HTML-Table-Coding-1.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            box-sizing: content-box;
-        }
+      .container {
+        background-image: url("https://cdn.perkuto.com/wp-content/uploads/2015/05/HTML-Table-Coding-1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-sizing: content-box;
+      }
 
-        .card-footer {
-            position: fixed;
-            margin-top: 10px;
-            width: 100%;
-            bottom: 0px;
-            background-color: #e9ecef;
-        }
+      .card-footer {
+        position: fixed;
+        margin-top: 10px;
+        width: 100%;
+        bottom: 0px;
+        background-color: #e9ecef;
+      }
 
-        h5 {
-            margin: auto;
-        }
+      h5 {
+        margin: auto;
+      }
 
-        .card {
-            margin: auto;
-            margin-bottom: 20px;
-            height: 300px;
-            width: 350px;
-        }
+      .card {
+        margin: auto;
+        margin-bottom: 20px;
+        height: 300px;
+        width: 350px;
+      }
 
-        .card-title {
-            font-size: x-large;
-            /* display: flex; */
-        }
+      .card-title {
+        font-size: x-large;
+      }
 
-        .fab,
-        .fas {
-            color: black;
-            /* margin-left: 70px; */
-        }
+      .fab,
+      .fas {
+        color: black;
+      }
 
-        .breadcrumb-item+.breadcrumb-item::before {
-            content: "|";
-        }
+      .breadcrumb-item + .breadcrumb-item::before {
+        content: "|";
+      }
     </style>
     <title>Portfolio</title>
-</head>
-<script src="https://kit.fontawesome.com/2f824eb713.js" crossorigin="anonymous"></script>
+  </head>
+  <script
+    src="https://kit.fontawesome.com/2f824eb713.js"
+    crossorigin="anonymous"
+  ></script>
 
-<body>
+  <body>
     <!-- bootstrap -->
     <!-- Nav/Menu -->
     <nav class="navbar navbar-light bg-light">
-        <span class="navbar-brand mb-0 h1">Elizabeth Munoz</span>
+      <span class="navbar-brand mb-0 h1">Elizabeth Munoz</span>
     </nav>
 
     <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="contact.html">About</a>
-            </li>
-            <li class="breadcrumb-item"><a href="portfolio.html">Portfolio</a></li>
-            <li class="breadcrumb-item"><a href="contact.html">Contact</a></li>
-        </ol>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">About</a></li>
+        <li class="breadcrumb-item"><a href="portfolio.html">Portfolio</a></li>
+        <li class="breadcrumb-item"><a href="contact.html">Contact</a></li>
+      </ol>
     </nav>
     <!-- Content -->
 
     <div class="container">
-        <div class="row-cols-md-2">
-            <div class="col-10 img-thumbnail" style="background-color: #e9ecef; margin:auto; margin-bottom: 40px;">
-                <div class="row2 row">
-                    <h1>Gallery</h1>
-                </div>
-                <hr>
-                <div class="row3 row">
-                    <div class="col col-xs-4">
-                        <div class="card">
-                            <a href="https://munoze714.github.io/groupRepo/" target="_blank">
-                                <img src="./assets/images/shuffle.png" class="card-img-top" alt="project1"></a>
-                            <div class="card-body">
-                                <a href="https://github.com/munoze714/groupRepo.git"><i class="fab fa-github fa-lg"
-                                        style="float: left;"></i></a>
-                                <h5 class="card-title">Shuffle</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+     
+        <div
+          class="col-10 img-thumbnail"
+          style="background-color: #e9ecef; margin: auto; margin-bottom: 40px;"
+        >
+          <div class="row2 row">
+            <h1>Gallery</h1>
+          </div>
+          <hr />
+          <div class="row3 row">
+            <div class="col col-xs-4">
+              <div class="card">
+                <a
+                  href="https://munoze714.github.io/groupRepo/"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/images/shuffle.png"
+                    class="card-img-top"
+                    alt="project1"
+                /></a>
 
-                <div class="row4 row">
-                    <div class="col col-xs-4">
-                        <div class="card">
-                            <a href="https://munoze714.github.io/DayPlanner/" target="_blank">
-                                <img src="./assets/images/planner.png" class="card-img-top" alt="planner"></a>
-                            <div class="card-body">
-                                <a href="https://github.com/munoze714/DayPlanner.git"><i class="fab fa-github fa-lg"
-                                        style="float: left;"></i></a>
-                                <h5 class="card-title">Day Planner</h5>
-                            </div>
-                        </div>
-                    </div>
+                <div class="card-body">
+                  <a href="https://github.com/munoze714/groupRepo.git"
+                    ><i class="fab fa-github fa-lg" style="float: left;"></i
+                  ></a>
+                  <h5 class="card-title">Shuffle</h5>
                 </div>
-
-                <div class="row5 row">
-                    <div class="col col-xs-4">
-                        <div class="card">
-                            <a href="https://munoze714.github.io/codequiz/" target="_blank">
-                                <img src="./assets/images/quiz.png" class="card-img-top" alt="quiz"></a>
-                            <div class="card-body">
-                                <a href="https://github.com/munoze714/codequiz.git"><i class="fab fa-github fa-lg"
-                                        style="float: left;"></i></a>
-                                <h5 class="card-title">Code Quiz</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row6 row">
-                    <div class="col col-xs-4">
-                        <div class="card">
-                            <a href="https://munoze714.github.io/weatherDashboard/" target="_blank">
-                                <img src="./assets/images/WeatherDash.png" class="card-img-top" alt="quiz"></a>
-                            <div class="card-body">
-                                <a href="https://github.com/munoze714/weatherDashboard.git"><i
-                                        class="fab fa-github fa-lg" style="float: left;"></i></a>
-                                <h5 class="card-title">Weather Dashboard</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row7 row">
-                    <div class="col col-xs-4">
-                        <div class="card">
-                            <a href="https://eatthaburger.herokuapp.com/" target="_blank">
-                                <img src="./assets/images/burger.png" class="card-img-top" alt="eat-tha-burger"></a>
-                            <div class="card-body">
-                                <a href="https://github.com/munoze714/Eat-Da-burger.git"><i class="fab fa-github fa-lg"
-                                        style="float: left;"></i></a>
-                                <h5 class="card-title">Eat Tha Burger</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+              </div>
             </div>
+
+            <div class="col col-xs-4">
+              <div class="card">
+                <a
+                  href="https://munoze714.github.io/DayPlanner/"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/images/planner.png"
+                    class="card-img-top"
+                    alt="planner"
+                /></a>
+
+                <div class="card-body">
+                  <a href="https://github.com/munoze714/DayPlanner.git"
+                    ><i class="fab fa-github fa-lg" style="float: left;"></i
+                  ></a>
+                  <h5 class="card-title">Day Planner</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row4 row">
+            <div class="col col-xs-4">
+              <div class="card">
+                <a href="https://munoze714.github.io/codequiz/" target="_blank">
+                  <img
+                    src="./assets/images/quiz.png"
+                    class="card-img-top"
+                    alt="quiz"
+                /></a>
+
+                <div class="card-body">
+                  <a href="https://github.com/munoze714/codequiz.git"
+                    ><i class="fab fa-github fa-lg" style="float: left;"></i
+                  ></a>
+                  <h5 class="card-title">Code Quiz</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-xs-4">
+              <div class="card">
+                <a
+                  href="https://munoze714.github.io/weatherDashboard/"
+                  target="_blank"
+                >
+                  <img
+                    src="./assets/images/WeatherDash.png"
+                    class="card-img-top"
+                    alt="quiz"
+                /></a>
+
+                <div class="card-body">
+                  <a href="https://github.com/munoze714/weatherDashboard.git"
+                    ><i class="fab fa-github fa-lg" style="float: left;"></i
+                  ></a>
+                  <h5 class="card-title">Weather Dashboard</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row5 row">
+            <div class="col col-xs-4">
+              <div class="card">
+                <a href="https://eatthaburger.herokuapp.com/" target="_blank">
+                  <img
+                    src="./assets/images/burger.png"
+                    class="card-img-top"
+                    alt="eat-tha-burger"
+                /></a>
+
+                <div class="card-body">
+                  <a href="https://github.com/munoze714/Eat-Da-burger.git"
+                    ><i class="fab fa-github fa-lg" style="float: left;"></i
+                  ></a>
+                  <h5 class="card-title">Eat Tha Burger</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col col-xs-4">
+              <div class="card">
+                <a href="http://www.squaddle.in/" target="_blank">
+                  <img
+                    src="./assets/images/Squaddle.png"
+                    class="card-img-top"
+                    alt="squaddle"
+                /></a>
+
+                <div class="card-body">
+                  <a href="https://github.com/munoze714/project-lan.git"
+                    ><i class="fab fa-github fa-lg" style="float: left;"></i
+                  ></a>
+                  <h5 class="card-title">Squaddle</h5>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- footer -->
     <div class="card-footer">
-        <h6>Full-Stack Web Developer</h6>
+      <h6>Full-Stack Web Developer</h6>
     </div>
     <!-- jquery links -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
